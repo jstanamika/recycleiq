@@ -1,0 +1,1430 @@
+[
+  {
+    "name": "Plastic bottle",
+    "material": "PET plastic",
+    "category": "plastic",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Milk bottle",
+    "material": "HDPE plastic",
+    "category": "plastic",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Shampoo bottle",
+    "material": "HDPE plastic",
+    "category": "plastic",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Water can",
+    "material": "PET plastic",
+    "category": "plastic",
+    "recyclable": "conditional",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Yogurt tub",
+    "material": "PP plastic",
+    "category": "plastic",
+    "recyclable": "conditional",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Takeaway container",
+    "material": "PP plastic",
+    "category": "plastic",
+    "recyclable": "conditional",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Plastic food tray",
+    "material": "PP plastic",
+    "category": "plastic",
+    "recyclable": "conditional",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Plastic bucket",
+    "material": "HDPE plastic",
+    "category": "plastic",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Plastic chair",
+    "material": "Mixed plastic",
+    "category": "plastic",
+    "recyclable": "conditional",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Toothbrush",
+    "material": "Mixed plastic",
+    "category": "plastic",
+    "recyclable": "no",
+    "bin": "Grey",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Plastic straw",
+    "material": "PP plastic",
+    "category": "plastic",
+    "recyclable": "no",
+    "bin": "Grey",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Plastic spoon",
+    "material": "PP plastic",
+    "category": "plastic",
+    "recyclable": "no",
+    "bin": "Grey",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Chip packet",
+    "material": "Multilayer film",
+    "category": "plastic",
+    "recyclable": "no",
+    "bin": "Grey",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Biscuit wrapper",
+    "material": "Multilayer film",
+    "category": "plastic",
+    "recyclable": "no",
+    "bin": "Grey",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Plastic bag",
+    "material": "LDPE film",
+    "category": "plastic",
+    "recyclable": "conditional",
+    "bin": "Special",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Cling film",
+    "material": "LDPE film",
+    "category": "plastic",
+    "recyclable": "no",
+    "bin": "Grey",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Bubble wrap",
+    "material": "LDPE film",
+    "category": "plastic",
+    "recyclable": "conditional",
+    "bin": "Special",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Styrofoam",
+    "material": "Expanded polystyrene",
+    "category": "plastic",
+    "recyclable": "no",
+    "bin": "Grey",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Thermocol packaging",
+    "material": "Expanded polystyrene",
+    "category": "plastic",
+    "recyclable": "no",
+    "bin": "Grey",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "PVC pipe",
+    "material": "PVC plastic",
+    "category": "plastic",
+    "recyclable": "conditional",
+    "bin": "Special",
+    "preparation": [
+      "Empty and rinse it",
+      "Flatten if possible",
+      "Keep it dry"
+    ],
+    "environmentalFact": "Plastic can persist for decades; clean rigid containers are easier to sort and remake.",
+    "tips": [
+      "Rinse residue before sorting",
+      "Remove non-plastic parts when easy"
+    ]
+  },
+  {
+    "name": "Newspaper",
+    "material": "Paper",
+    "category": "paper",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Office paper",
+    "material": "Paper",
+    "category": "paper",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Notebook",
+    "material": "Paper and card",
+    "category": "paper",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Magazine",
+    "material": "Paper",
+    "category": "paper",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Paper envelope",
+    "material": "Paper",
+    "category": "paper",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Paper bag",
+    "material": "Paper",
+    "category": "paper",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Cardboard box",
+    "material": "Corrugated card",
+    "category": "paper",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Cereal box",
+    "material": "Paperboard",
+    "category": "paper",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Pizza box",
+    "material": "Paperboard",
+    "category": "paper",
+    "recyclable": "conditional",
+    "bin": "Blue",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Paper plate",
+    "material": "Paper",
+    "category": "paper",
+    "recyclable": "conditional",
+    "bin": "Blue",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Paper cup",
+    "material": "Paper + plastic lining",
+    "category": "paper",
+    "recyclable": "conditional",
+    "bin": "Special",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Tissue paper",
+    "material": "Low-grade paper",
+    "category": "paper",
+    "recyclable": "no",
+    "bin": "Grey",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Paper towel",
+    "material": "Low-grade paper",
+    "category": "paper",
+    "recyclable": "no",
+    "bin": "Grey",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Receipt",
+    "material": "Thermal paper",
+    "category": "paper",
+    "recyclable": "no",
+    "bin": "Grey",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Wax paper",
+    "material": "Coated paper",
+    "category": "paper",
+    "recyclable": "no",
+    "bin": "Grey",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Egg carton",
+    "material": "Moulded paper",
+    "category": "paper",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Keep it dry",
+      "Remove greasy or wet sections",
+      "Flatten it"
+    ],
+    "environmentalFact": "Paper fibres can be recycled several times when they stay clean and dry.",
+    "tips": [
+      "Keep paper away from food and liquid",
+      "Flatten boxes to save space"
+    ]
+  },
+  {
+    "name": "Glass jar",
+    "material": "Glass",
+    "category": "glass",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Separate from ceramics",
+      "Handle broken pieces safely"
+    ],
+    "environmentalFact": "Glass can be recycled repeatedly, but ceramics and mirrors need different processing.",
+    "tips": [
+      "Never put loose broken glass in a bag",
+      "Check local glass collection rules"
+    ]
+  },
+  {
+    "name": "Glass bottle",
+    "material": "Glass",
+    "category": "glass",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Separate from ceramics",
+      "Handle broken pieces safely"
+    ],
+    "environmentalFact": "Glass can be recycled repeatedly, but ceramics and mirrors need different processing.",
+    "tips": [
+      "Never put loose broken glass in a bag",
+      "Check local glass collection rules"
+    ]
+  },
+  {
+    "name": "Pickle jar",
+    "material": "Glass",
+    "category": "glass",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Separate from ceramics",
+      "Handle broken pieces safely"
+    ],
+    "environmentalFact": "Glass can be recycled repeatedly, but ceramics and mirrors need different processing.",
+    "tips": [
+      "Never put loose broken glass in a bag",
+      "Check local glass collection rules"
+    ]
+  },
+  {
+    "name": "Mirror",
+    "material": "Coated glass",
+    "category": "glass",
+    "recyclable": "no",
+    "bin": "Special",
+    "preparation": [
+      "Empty and rinse it",
+      "Separate from ceramics",
+      "Handle broken pieces safely"
+    ],
+    "environmentalFact": "Glass can be recycled repeatedly, but ceramics and mirrors need different processing.",
+    "tips": [
+      "Never put loose broken glass in a bag",
+      "Check local glass collection rules"
+    ]
+  },
+  {
+    "name": "Window glass",
+    "material": "Coated glass",
+    "category": "glass",
+    "recyclable": "no",
+    "bin": "Special",
+    "preparation": [
+      "Empty and rinse it",
+      "Separate from ceramics",
+      "Handle broken pieces safely"
+    ],
+    "environmentalFact": "Glass can be recycled repeatedly, but ceramics and mirrors need different processing.",
+    "tips": [
+      "Never put loose broken glass in a bag",
+      "Check local glass collection rules"
+    ]
+  },
+  {
+    "name": "Ceramic mug",
+    "material": "Ceramic",
+    "category": "glass",
+    "recyclable": "no",
+    "bin": "Grey",
+    "preparation": [
+      "Empty and rinse it",
+      "Separate from ceramics",
+      "Handle broken pieces safely"
+    ],
+    "environmentalFact": "Glass can be recycled repeatedly, but ceramics and mirrors need different processing.",
+    "tips": [
+      "Never put loose broken glass in a bag",
+      "Check local glass collection rules"
+    ]
+  },
+  {
+    "name": "Drinking glass",
+    "material": "Glass",
+    "category": "glass",
+    "recyclable": "conditional",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Separate from ceramics",
+      "Handle broken pieces safely"
+    ],
+    "environmentalFact": "Glass can be recycled repeatedly, but ceramics and mirrors need different processing.",
+    "tips": [
+      "Never put loose broken glass in a bag",
+      "Check local glass collection rules"
+    ]
+  },
+  {
+    "name": "Broken glass",
+    "material": "Glass",
+    "category": "glass",
+    "recyclable": "conditional",
+    "bin": "Special",
+    "preparation": [
+      "Empty and rinse it",
+      "Separate from ceramics",
+      "Handle broken pieces safely"
+    ],
+    "environmentalFact": "Glass can be recycled repeatedly, but ceramics and mirrors need different processing.",
+    "tips": [
+      "Never put loose broken glass in a bag",
+      "Check local glass collection rules"
+    ]
+  },
+  {
+    "name": "Aluminium can",
+    "material": "Aluminium",
+    "category": "metal",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Keep sharp edges safe",
+      "Follow local can rules"
+    ],
+    "environmentalFact": "Recycling metal usually saves substantial energy compared with extracting new ore.",
+    "tips": [
+      "Empty cans fully",
+      "Keep paint and pressurised containers separate"
+    ]
+  },
+  {
+    "name": "Steel can",
+    "material": "Steel",
+    "category": "metal",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Keep sharp edges safe",
+      "Follow local can rules"
+    ],
+    "environmentalFact": "Recycling metal usually saves substantial energy compared with extracting new ore.",
+    "tips": [
+      "Empty cans fully",
+      "Keep paint and pressurised containers separate"
+    ]
+  },
+  {
+    "name": "Food tin",
+    "material": "Steel",
+    "category": "metal",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Keep sharp edges safe",
+      "Follow local can rules"
+    ],
+    "environmentalFact": "Recycling metal usually saves substantial energy compared with extracting new ore.",
+    "tips": [
+      "Empty cans fully",
+      "Keep paint and pressurised containers separate"
+    ]
+  },
+  {
+    "name": "Aerosol can",
+    "material": "Pressurised metal",
+    "category": "metal",
+    "recyclable": "conditional",
+    "bin": "Special",
+    "preparation": [
+      "Empty and rinse it",
+      "Keep sharp edges safe",
+      "Follow local can rules"
+    ],
+    "environmentalFact": "Recycling metal usually saves substantial energy compared with extracting new ore.",
+    "tips": [
+      "Empty cans fully",
+      "Keep paint and pressurised containers separate"
+    ]
+  },
+  {
+    "name": "Paint tin",
+    "material": "Metal + paint",
+    "category": "metal",
+    "recyclable": "conditional",
+    "bin": "Special",
+    "preparation": [
+      "Empty and rinse it",
+      "Keep sharp edges safe",
+      "Follow local can rules"
+    ],
+    "environmentalFact": "Recycling metal usually saves substantial energy compared with extracting new ore.",
+    "tips": [
+      "Empty cans fully",
+      "Keep paint and pressurised containers separate"
+    ]
+  },
+  {
+    "name": "Aluminium foil",
+    "material": "Aluminium",
+    "category": "metal",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Keep sharp edges safe",
+      "Follow local can rules"
+    ],
+    "environmentalFact": "Recycling metal usually saves substantial energy compared with extracting new ore.",
+    "tips": [
+      "Empty cans fully",
+      "Keep paint and pressurised containers separate"
+    ]
+  },
+  {
+    "name": "Metal bottle cap",
+    "material": "Steel",
+    "category": "metal",
+    "recyclable": "yes",
+    "bin": "Blue",
+    "preparation": [
+      "Empty and rinse it",
+      "Keep sharp edges safe",
+      "Follow local can rules"
+    ],
+    "environmentalFact": "Recycling metal usually saves substantial energy compared with extracting new ore.",
+    "tips": [
+      "Empty cans fully",
+      "Keep paint and pressurised containers separate"
+    ]
+  },
+  {
+    "name": "Metal hanger",
+    "material": "Steel",
+    "category": "metal",
+    "recyclable": "conditional",
+    "bin": "Special",
+    "preparation": [
+      "Empty and rinse it",
+      "Keep sharp edges safe",
+      "Follow local can rules"
+    ],
+    "environmentalFact": "Recycling metal usually saves substantial energy compared with extracting new ore.",
+    "tips": [
+      "Empty cans fully",
+      "Keep paint and pressurised containers separate"
+    ]
+  },
+  {
+    "name": "Banana peel",
+    "material": "Food waste",
+    "category": "organic",
+    "recyclable": "yes",
+    "bin": "Green",
+    "preparation": [
+      "Drain excess liquid",
+      "Keep plastics out",
+      "Use the local compost stream"
+    ],
+    "environmentalFact": "Keeping food scraps out of landfill can reduce methane and create compost.",
+    "tips": [
+      "Use a liner accepted by your compost program",
+      "No plastic wrappers"
+    ]
+  },
+  {
+    "name": "Apple core",
+    "material": "Food waste",
+    "category": "organic",
+    "recyclable": "yes",
+    "bin": "Green",
+    "preparation": [
+      "Drain excess liquid",
+      "Keep plastics out",
+      "Use the local compost stream"
+    ],
+    "environmentalFact": "Keeping food scraps out of landfill can reduce methane and create compost.",
+    "tips": [
+      "Use a liner accepted by your compost program",
+      "No plastic wrappers"
+    ]
+  },
+  {
+    "name": "Vegetable scraps",
+    "material": "Food waste",
+    "category": "organic",
+    "recyclable": "yes",
+    "bin": "Green",
+    "preparation": [
+      "Drain excess liquid",
+      "Keep plastics out",
+      "Use the local compost stream"
+    ],
+    "environmentalFact": "Keeping food scraps out of landfill can reduce methane and create compost.",
+    "tips": [
+      "Use a liner accepted by your compost program",
+      "No plastic wrappers"
+    ]
+  },
+  {
+    "name": "Tea leaves",
+    "material": "Organic matter",
+    "category": "organic",
+    "recyclable": "yes",
+    "bin": "Green",
+    "preparation": [
+      "Drain excess liquid",
+      "Keep plastics out",
+      "Use the local compost stream"
+    ],
+    "environmentalFact": "Keeping food scraps out of landfill can reduce methane and create compost.",
+    "tips": [
+      "Use a liner accepted by your compost program",
+      "No plastic wrappers"
+    ]
+  },
+  {
+    "name": "Coffee grounds",
+    "material": "Organic matter",
+    "category": "organic",
+    "recyclable": "yes",
+    "bin": "Green",
+    "preparation": [
+      "Drain excess liquid",
+      "Keep plastics out",
+      "Use the local compost stream"
+    ],
+    "environmentalFact": "Keeping food scraps out of landfill can reduce methane and create compost.",
+    "tips": [
+      "Use a liner accepted by your compost program",
+      "No plastic wrappers"
+    ]
+  },
+  {
+    "name": "Eggshells",
+    "material": "Organic matter",
+    "category": "organic",
+    "recyclable": "yes",
+    "bin": "Green",
+    "preparation": [
+      "Drain excess liquid",
+      "Keep plastics out",
+      "Use the local compost stream"
+    ],
+    "environmentalFact": "Keeping food scraps out of landfill can reduce methane and create compost.",
+    "tips": [
+      "Use a liner accepted by your compost program",
+      "No plastic wrappers"
+    ]
+  },
+  {
+    "name": "Cooked rice",
+    "material": "Food waste",
+    "category": "organic",
+    "recyclable": "yes",
+    "bin": "Green",
+    "preparation": [
+      "Drain excess liquid",
+      "Keep plastics out",
+      "Use the local compost stream"
+    ],
+    "environmentalFact": "Keeping food scraps out of landfill can reduce methane and create compost.",
+    "tips": [
+      "Use a liner accepted by your compost program",
+      "No plastic wrappers"
+    ]
+  },
+  {
+    "name": "Bread",
+    "material": "Food waste",
+    "category": "organic",
+    "recyclable": "yes",
+    "bin": "Green",
+    "preparation": [
+      "Drain excess liquid",
+      "Keep plastics out",
+      "Use the local compost stream"
+    ],
+    "environmentalFact": "Keeping food scraps out of landfill can reduce methane and create compost.",
+    "tips": [
+      "Use a liner accepted by your compost program",
+      "No plastic wrappers"
+    ]
+  },
+  {
+    "name": "Cooking oil",
+    "material": "Used oil",
+    "category": "organic",
+    "recyclable": "conditional",
+    "bin": "Special",
+    "preparation": [
+      "Drain excess liquid",
+      "Keep plastics out",
+      "Use the local compost stream"
+    ],
+    "environmentalFact": "Keeping food scraps out of landfill can reduce methane and create compost.",
+    "tips": [
+      "Use a liner accepted by your compost program",
+      "No plastic wrappers"
+    ]
+  },
+  {
+    "name": "Garden leaves",
+    "material": "Plant matter",
+    "category": "organic",
+    "recyclable": "yes",
+    "bin": "Green",
+    "preparation": [
+      "Drain excess liquid",
+      "Keep plastics out",
+      "Use the local compost stream"
+    ],
+    "environmentalFact": "Keeping food scraps out of landfill can reduce methane and create compost.",
+    "tips": [
+      "Use a liner accepted by your compost program",
+      "No plastic wrappers"
+    ]
+  },
+  {
+    "name": "Mobile phone",
+    "material": "Electronics",
+    "category": "ewaste",
+    "recyclable": "conditional",
+    "bin": "Red",
+    "preparation": [
+      "Keep batteries separate",
+      "Do not burn or dismantle",
+      "Use an e-waste collection point"
+    ],
+    "environmentalFact": "Electronics contain valuable materials and should be handled by trained recyclers.",
+    "tips": [
+      "Back up data before recycling devices",
+      "Tape loose battery terminals"
+    ]
+  },
+  {
+    "name": "Laptop",
+    "material": "Electronics",
+    "category": "ewaste",
+    "recyclable": "conditional",
+    "bin": "Red",
+    "preparation": [
+      "Keep batteries separate",
+      "Do not burn or dismantle",
+      "Use an e-waste collection point"
+    ],
+    "environmentalFact": "Electronics contain valuable materials and should be handled by trained recyclers.",
+    "tips": [
+      "Back up data before recycling devices",
+      "Tape loose battery terminals"
+    ]
+  },
+  {
+    "name": "Charger",
+    "material": "Electronics",
+    "category": "ewaste",
+    "recyclable": "conditional",
+    "bin": "Red",
+    "preparation": [
+      "Keep batteries separate",
+      "Do not burn or dismantle",
+      "Use an e-waste collection point"
+    ],
+    "environmentalFact": "Electronics contain valuable materials and should be handled by trained recyclers.",
+    "tips": [
+      "Back up data before recycling devices",
+      "Tape loose battery terminals"
+    ]
+  },
+  {
+    "name": "USB cable",
+    "material": "Electronics",
+    "category": "ewaste",
+    "recyclable": "conditional",
+    "bin": "Red",
+    "preparation": [
+      "Keep batteries separate",
+      "Do not burn or dismantle",
+      "Use an e-waste collection point"
+    ],
+    "environmentalFact": "Electronics contain valuable materials and should be handled by trained recyclers.",
+    "tips": [
+      "Back up data before recycling devices",
+      "Tape loose battery terminals"
+    ]
+  },
+  {
+    "name": "Earphones",
+    "material": "Electronics",
+    "category": "ewaste",
+    "recyclable": "conditional",
+    "bin": "Red",
+    "preparation": [
+      "Keep batteries separate",
+      "Do not burn or dismantle",
+      "Use an e-waste collection point"
+    ],
+    "environmentalFact": "Electronics contain valuable materials and should be handled by trained recyclers.",
+    "tips": [
+      "Back up data before recycling devices",
+      "Tape loose battery terminals"
+    ]
+  },
+  {
+    "name": "Remote control",
+    "material": "Electronics + battery",
+    "category": "ewaste",
+    "recyclable": "conditional",
+    "bin": "Red",
+    "preparation": [
+      "Keep batteries separate",
+      "Do not burn or dismantle",
+      "Use an e-waste collection point"
+    ],
+    "environmentalFact": "Electronics contain valuable materials and should be handled by trained recyclers.",
+    "tips": [
+      "Back up data before recycling devices",
+      "Tape loose battery terminals"
+    ]
+  },
+  {
+    "name": "Battery",
+    "material": "Battery chemicals",
+    "category": "ewaste",
+    "recyclable": "no",
+    "bin": "Red",
+    "preparation": [
+      "Keep batteries separate",
+      "Do not burn or dismantle",
+      "Use an e-waste collection point"
+    ],
+    "environmentalFact": "Electronics contain valuable materials and should be handled by trained recyclers.",
+    "tips": [
+      "Back up data before recycling devices",
+      "Tape loose battery terminals"
+    ]
+  },
+  {
+    "name": "Power bank",
+    "material": "Lithium battery",
+    "category": "ewaste",
+    "recyclable": "no",
+    "bin": "Red",
+    "preparation": [
+      "Keep batteries separate",
+      "Do not burn or dismantle",
+      "Use an e-waste collection point"
+    ],
+    "environmentalFact": "Electronics contain valuable materials and should be handled by trained recyclers.",
+    "tips": [
+      "Back up data before recycling devices",
+      "Tape loose battery terminals"
+    ]
+  },
+  {
+    "name": "Keyboard",
+    "material": "Electronics",
+    "category": "ewaste",
+    "recyclable": "conditional",
+    "bin": "Red",
+    "preparation": [
+      "Keep batteries separate",
+      "Do not burn or dismantle",
+      "Use an e-waste collection point"
+    ],
+    "environmentalFact": "Electronics contain valuable materials and should be handled by trained recyclers.",
+    "tips": [
+      "Back up data before recycling devices",
+      "Tape loose battery terminals"
+    ]
+  },
+  {
+    "name": "Light bulb",
+    "material": "Glass + electronics",
+    "category": "hazardous",
+    "recyclable": "conditional",
+    "bin": "Red",
+    "preparation": [
+      "Keep in original packaging",
+      "Do not pour into drains",
+      "Ask your local hazardous-waste service"
+    ],
+    "environmentalFact": "Small amounts of chemicals can pollute water, soil, and recycling equipment.",
+    "tips": [
+      "Do not mix chemicals",
+      "Keep labels visible"
+    ]
+  },
+  {
+    "name": "CFL bulb",
+    "material": "Mercury electronics",
+    "category": "hazardous",
+    "recyclable": "no",
+    "bin": "Red",
+    "preparation": [
+      "Keep in original packaging",
+      "Do not pour into drains",
+      "Ask your local hazardous-waste service"
+    ],
+    "environmentalFact": "Small amounts of chemicals can pollute water, soil, and recycling equipment.",
+    "tips": [
+      "Do not mix chemicals",
+      "Keep labels visible"
+    ]
+  },
+  {
+    "name": "Paint",
+    "material": "Chemical",
+    "category": "hazardous",
+    "recyclable": "no",
+    "bin": "Red",
+    "preparation": [
+      "Keep in original packaging",
+      "Do not pour into drains",
+      "Ask your local hazardous-waste service"
+    ],
+    "environmentalFact": "Small amounts of chemicals can pollute water, soil, and recycling equipment.",
+    "tips": [
+      "Do not mix chemicals",
+      "Keep labels visible"
+    ]
+  },
+  {
+    "name": "Pesticide bottle",
+    "material": "Chemical container",
+    "category": "hazardous",
+    "recyclable": "no",
+    "bin": "Red",
+    "preparation": [
+      "Keep in original packaging",
+      "Do not pour into drains",
+      "Ask your local hazardous-waste service"
+    ],
+    "environmentalFact": "Small amounts of chemicals can pollute water, soil, and recycling equipment.",
+    "tips": [
+      "Do not mix chemicals",
+      "Keep labels visible"
+    ]
+  },
+  {
+    "name": "Medicine strips",
+    "material": "Medical packaging",
+    "category": "medical",
+    "recyclable": "no",
+    "bin": "Red",
+    "preparation": [
+      "Keep away from children",
+      "Use a pharmacy or clinical collection point",
+      "Never place in household recycling"
+    ],
+    "environmentalFact": "Medical items can injure workers and carry contamination risk outside a safe collection system.",
+    "tips": [
+      "Return medicines to a pharmacy",
+      "Use an approved sharps container"
+    ]
+  },
+  {
+    "name": "Expired medicine",
+    "material": "Medicine",
+    "category": "medical",
+    "recyclable": "no",
+    "bin": "Red",
+    "preparation": [
+      "Keep away from children",
+      "Use a pharmacy or clinical collection point",
+      "Never place in household recycling"
+    ],
+    "environmentalFact": "Medical items can injure workers and carry contamination risk outside a safe collection system.",
+    "tips": [
+      "Return medicines to a pharmacy",
+      "Use an approved sharps container"
+    ]
+  },
+  {
+    "name": "Syringe",
+    "material": "Medical sharp",
+    "category": "medical",
+    "recyclable": "no",
+    "bin": "Red",
+    "preparation": [
+      "Keep away from children",
+      "Use a pharmacy or clinical collection point",
+      "Never place in household recycling"
+    ],
+    "environmentalFact": "Medical items can injure workers and carry contamination risk outside a safe collection system.",
+    "tips": [
+      "Return medicines to a pharmacy",
+      "Use an approved sharps container"
+    ]
+  },
+  {
+    "name": "Face mask",
+    "material": "Medical textile",
+    "category": "medical",
+    "recyclable": "no",
+    "bin": "Red",
+    "preparation": [
+      "Keep away from children",
+      "Use a pharmacy or clinical collection point",
+      "Never place in household recycling"
+    ],
+    "environmentalFact": "Medical items can injure workers and carry contamination risk outside a safe collection system.",
+    "tips": [
+      "Return medicines to a pharmacy",
+      "Use an approved sharps container"
+    ]
+  },
+  {
+    "name": "T-shirt",
+    "material": "Cotton textile",
+    "category": "textiles",
+    "recyclable": "conditional",
+    "bin": "Special",
+    "preparation": [
+      "Keep dry and clean",
+      "Donate if usable",
+      "Use a textile collection point"
+    ],
+    "environmentalFact": "Extending a garment’s life through reuse often beats recycling the fibres.",
+    "tips": [
+      "Wash and dry before donation",
+      "Repair or reuse before recycling"
+    ]
+  },
+  {
+    "name": "Jeans",
+    "material": "Cotton textile",
+    "category": "textiles",
+    "recyclable": "conditional",
+    "bin": "Special",
+    "preparation": [
+      "Keep dry and clean",
+      "Donate if usable",
+      "Use a textile collection point"
+    ],
+    "environmentalFact": "Extending a garment’s life through reuse often beats recycling the fibres.",
+    "tips": [
+      "Wash and dry before donation",
+      "Repair or reuse before recycling"
+    ]
+  },
+  {
+    "name": "Shoes",
+    "material": "Mixed textile",
+    "category": "textiles",
+    "recyclable": "conditional",
+    "bin": "Special",
+    "preparation": [
+      "Keep dry and clean",
+      "Donate if usable",
+      "Use a textile collection point"
+    ],
+    "environmentalFact": "Extending a garment’s life through reuse often beats recycling the fibres.",
+    "tips": [
+      "Wash and dry before donation",
+      "Repair or reuse before recycling"
+    ]
+  },
+  {
+    "name": "Bed sheet",
+    "material": "Textile",
+    "category": "textiles",
+    "recyclable": "conditional",
+    "bin": "Special",
+    "preparation": [
+      "Keep dry and clean",
+      "Donate if usable",
+      "Use a textile collection point"
+    ],
+    "environmentalFact": "Extending a garment’s life through reuse often beats recycling the fibres.",
+    "tips": [
+      "Wash and dry before donation",
+      "Repair or reuse before recycling"
+    ]
+  },
+  {
+    "name": "Towel",
+    "material": "Textile",
+    "category": "textiles",
+    "recyclable": "conditional",
+    "bin": "Special",
+    "preparation": [
+      "Keep dry and clean",
+      "Donate if usable",
+      "Use a textile collection point"
+    ],
+    "environmentalFact": "Extending a garment’s life through reuse often beats recycling the fibres.",
+    "tips": [
+      "Wash and dry before donation",
+      "Repair or reuse before recycling"
+    ]
+  }
+]

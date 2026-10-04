@@ -1,0 +1,16 @@
+{
+  "name": "RecycleIQ",
+  "short_name": "RecycleIQ",
+  "description": "An on-device sorting coach for recyclable, non-recyclable, and special-handling waste.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#1e7a4d",
+  "background_color": "#f6f7f2",
+  "categories": ["education", "lifestyle", "utilities"],
+  "icons": [
+    {"src":"icons/recycleiq-official-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icons/recycleiq-official-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

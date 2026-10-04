@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#1e7a4d" />
+  <meta name="description" content="RecycleIQ is an on-device recycling coach that helps you scan, sort, and dispose of everyday waste responsibly." />
+  <meta name="keywords" content="recycling AI, waste sorting, recyclable waste, recycling guide, on-device AI, zero waste" />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icons/recycleiq-official.png" type="image/png" />
+  <link rel="stylesheet" href="css/styles.css?v=5" />
+  <title>RecycleIQ — Scan. Sort. Sustain.</title>
+  <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.1/dist/mobilenet.min.js"></script>
+</head>
+<body>
+  <div class="splash" id="splash" role="status" aria-label="Loading RecycleIQ">
+    <div class="splash-mark" id="splash-mark"></div>
+    <p>Scan. Sort. Sustain.</p>
+    <span>Preparing your local sorting coach<span class="dots">…</span></span>
+  </div>
+
+  <div class="app-frame" id="app-frame">
+    <header class="topbar">
+      <a class="brand" href="#scan" data-nav="scan" aria-label="RecycleIQ home">
+        <span class="brand-mark" id="brand-mark"></span>
+        <span class="brand-text"><strong>Recycle<span>IQ</span></strong><small>Scan. Sort. Sustain.</small></span>
+      </a>
+      <div class="topbar-actions">
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme"></button>
+        <button class="button button--quiet install-button" id="install-button" type="button" hidden>Install RecycleIQ</button>
+        <button class="icon-button mobile-menu-button" id="mobile-menu" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" id="sidebar" aria-label="Primary navigation">
+        <div class="sidebar-intro"><span class="eyebrow">YOUR SORTING COACH</span><p>Make the next right move for every item.</p></div>
+        <nav class="nav-list">
+          <button class="nav-item is-active" data-nav="scan" type="button"><span>⌾</span><span>Scan</span><kbd>1</kbd></button>
+          <button class="nav-item" data-nav="search" type="button"><span>⌕</span><span>Search</span><kbd>2</kbd></button>
+          <button class="nav-item" data-nav="guide" type="button"><span>◈</span><span>Guide</span><kbd>3</kbd></button>
+          <button class="nav-item" data-nav="dashboard" type="button"><span>◒</span><span>Dashboard</span><kbd>4</kbd></button>
+          <button class="nav-item" data-nav="learn" type="button"><span>▤</span><span>Learn</span><kbd>5</kbd></button>
+        </nav>
+        <div class="sidebar-bottom">
+          <button class="nav-item nav-item--secondary" data-nav="about" type="button"><span>✦</span><span>How it works</span></button>
+          <button class="nav-item nav-item--secondary" data-nav="settings" type="button"><span>⚙</span><span>Settings</span></button>
+          <div class="sidebar-privacy"><span>◉</span><span>On-device by design.<br /><strong>Your image stays here.</strong></span></div>
+        </div>
+      </aside>
+
+      <main class="main-content" id="main-content" tabindex="-1">
+        <div class="mobile-section-heading" id="mobile-section-heading"></div>
+        <section class="view is-active" id="view-scan" data-view="scan" aria-labelledby="scan-title">
+          <div class="view-header view-header--scan">
+            <div><span class="eyebrow">SMARTER RECYCLING</span><h1 id="scan-title">What is it?<br /><em>Let’s find out.</em></h1><p class="view-lede">Point, snap, or upload an item. RecycleIQ gives you the next best step — privately, on your device.</p></div>
+            <div class="header-pulse"><span class="pulse-dot"></span>AI ready locally</div>
+          </div>
+          <div class="scan-grid">
+            <div class="scan-workspace">
+              <div class="scan-card" id="scanner-card">
+                <div class="scan-card-topline"><span class="eyebrow">01 / SCAN AN ITEM</span><span class="privacy-chip">◉ Your image never leaves your device</span></div>
+                <div class="dropzone" id="dropzone" tabindex="0" role="button" aria-label="Upload a waste item image or drop it here">
+                  <input id="image-input" type="file" accept="image/*" capture="environment" hidden />
+                  <div class="dropzone-empty" id="dropzone-empty"><div class="scan-illustration"><span>⌾</span><i></i></div><h2>Show me what you’re sorting</h2><p>Use your camera, upload a photo, or drag one into this space.</p><div class="dropzone-actions"><button class="button button--primary" id="upload-button" type="button">↥ Upload a photo</button><button class="button button--outline" id="camera-button" type="button">◎ Use camera</button></div><span class="dropzone-hint">JPG, PNG or WEBP · up to 10 MB</span></div>
+                  <div class="dropzone-preview" id="dropzone-preview" hidden><img id="image-preview" alt="Selected waste item preview" /><div class="preview-overlay"><span class="preview-label">✓ Ready to scan</span><button class="icon-button icon-button--inverse" id="remove-image" type="button" aria-label="Remove selected image">×</button></div></div>
+                  <div class="camera-panel" id="camera-panel" hidden><video id="camera-video" autoplay playsinline muted></video><div class="camera-frame"><span></span><span></span><span></span><span></span></div><button class="shutter-button" id="capture-button" type="button" aria-label="Capture item"><span></span></button><button class="camera-close" id="camera-close" type="button">Close camera</button></div>
+                </div>
+                <div class="scan-card-footer"><span class="model-status"><span class="status-dot status-dot--green"></span><span id="model-status-text">Local model ready · MobileNet assisted</span></span><button class="button button--dark" id="classify-button" type="button" disabled>Identify item <span>↗</span></button></div>
+              </div>
+              <div class="recent-strip"><div><span class="eyebrow">QUICK PICKS</span><p>Try a common item</p></div><div class="quick-picks"><button class="quick-pick" type="button" data-item="plastic bottle"><span class="item-dot item-dot--blue"></span>Plastic bottle</button><button class="quick-pick" type="button" data-item="banana peel"><span class="item-dot item-dot--green"></span>Banana peel</button><button class="quick-pick" type="button" data-item="battery"><span class="item-dot item-dot--red"></span>Battery</button></div></div>
+            </div>
+            <aside class="scan-aside">
+              <div class="aside-card aside-card--tip"><span class="aside-icon">✦</span><div><span class="eyebrow">TODAY’S SMALL WIN</span><h3>Rinse, then recycle.</h3><p>A quick rinse keeps food residue from contaminating an entire batch of paper and plastic.</p></div></div>
+              <div class="aside-card aside-card--stats"><div class="aside-card-header"><span class="eyebrow">YOUR IMPACT</span><button class="text-button" data-nav="dashboard" type="button">View dashboard ↗</button></div><div class="mini-stats"><div><strong id="mini-scans">0</strong><span>items scanned</span></div><div><strong id="mini-score">0</strong><span>RecycleIQ score</span></div></div><div class="micro-progress"><span id="mini-progress"></span></div><p class="micro-copy" id="mini-progress-copy">Your first scan starts the streak.</p></div>
+              <div class="aside-card aside-card--learn"><div class="aside-card-header"><span class="eyebrow">WHY IT MATTERS</span><span class="card-number">01</span></div><h3>Clean streams<br /><em>make recycling work.</em></h3><p>One greasy pizza box can spoil a whole load. Sorting well is a team sport.</p><button class="text-button" data-nav="learn" type="button">Learn the why ↗</button></div>
+            </aside>
+          </div>
+          <div class="result-panel" id="result-panel" hidden aria-live="polite"></div>
+        </section>
+
+        <section class="view" id="view-search" data-view="search" aria-labelledby="search-title" hidden>
+          <div class="view-header"><div><span class="eyebrow">THE EVERYDAY INDEX</span><h1 id="search-title">Search your<br /><em>sorting question.</em></h1><p class="view-lede">Look up an item when a camera isn’t the right tool. Clear, local-first guidance for the things you meet every day.</p></div><div class="header-stat"><strong>80+</strong><span>common items<br />indexed</span></div></div>
+          <div class="search-layout"><div class="search-main"><div class="search-box"><span class="search-icon">⌕</span><input id="search-input" type="search" placeholder="Try “coffee cup” or “old phone”" autocomplete="off" aria-label="Search waste items" /><button id="clear-search" class="icon-button" type="button" aria-label="Clear search" hidden>×</button><div class="autocomplete" id="autocomplete" role="listbox" hidden></div></div><div class="search-meta"><span id="search-count">Browse the index</span><button class="text-button" id="reset-search" type="button">Show all items</button></div><div class="search-results" id="search-results"></div></div><aside class="search-aside"><div class="aside-card aside-card--guide"><span class="eyebrow">SORTING SHORTCUT</span><h3>When in doubt,<br /><em>check the material.</em></h3><p>Material is usually a better clue than the shape. A “cup” could be paper, plastic, or foam — and each has a different next step.</p><button class="text-button" data-nav="guide" type="button">Explore materials ↗</button></div></aside></div>
+        </section>
+
+        <section class="view" id="view-guide" data-view="guide" aria-labelledby="guide-title" hidden>
+          <div class="view-header"><div><span class="eyebrow">THE SORTING MAP</span><h1 id="guide-title">Know your<br /><em>materials.</em></h1><p class="view-lede">A quick field guide to the streams, exceptions, and small preparation steps that protect the whole system.</p></div><div class="header-legend"><span class="legend-chip legend-chip--green">Wet / organic</span><span class="legend-chip legend-chip--blue">Dry / recyclable</span><span class="legend-chip legend-chip--red">Special handling</span></div></div>
+          <div class="category-grid" id="category-grid"></div><div class="guide-note">ⓘ <p>Bin colors vary by city. RecycleIQ uses a configurable default palette — always follow your local collection rules first.</p></div>
+        </section>
+
+        <section class="view" id="view-dashboard" data-view="dashboard" aria-labelledby="dashboard-title" hidden>
+          <div class="view-header"><div><span class="eyebrow">YOUR ECO ROUTINE</span><h1 id="dashboard-title">Small actions,<br /><em>visible impact.</em></h1><p class="view-lede">Your progress stays on this device. Keep showing up and the streak takes care of itself.</p></div><div class="score-orb"><span>IQ</span><strong id="dashboard-score">0</strong><small>eco-score</small></div></div>
+          <div class="dashboard-stats" id="dashboard-stats"></div><div class="dashboard-grid"><div class="dashboard-card chart-card"><div class="card-head"><div><span class="eyebrow">THIS WEEK</span><h2>Sorting rhythm</h2></div><span class="streak-badge" id="streak-badge">♨ <strong id="streak-count">0</strong> day streak</span></div><div class="chart-wrap" id="weekly-chart"></div><div class="chart-labels"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div></div><div class="dashboard-card badges-card"><div class="card-head"><div><span class="eyebrow">MILESTONES</span><h2>Badges to earn</h2></div><span class="badge-count" id="badge-count">0 / 3</span></div><div class="badges-list" id="badges-list"></div></div></div><div class="history-section"><div class="card-head"><div><span class="eyebrow">LOCAL HISTORY</span><h2>Recent scans</h2></div><button class="text-button" data-nav="settings" type="button">Manage history ↗</button></div><div class="history-list" id="history-list"></div></div>
+        </section>
+
+        <section class="view" id="view-learn" data-view="learn" aria-labelledby="learn-title" hidden>
+          <div class="view-header"><div><span class="eyebrow">THE WHY BEHIND THE BIN</span><h1 id="learn-title">Learn the<br /><em>lifecycle.</em></h1><p class="view-lede">The better we understand the system, the easier it is to make choices that hold up beyond the bin.</p></div><div class="header-stat"><strong>10</strong><span>questions in<br />the quick quiz</span></div></div>
+          <div class="learn-feature" id="learn-feature"></div><div class="learn-topics" id="learn-topics"></div><div class="quiz-card" id="quiz-card"></div>
+        </section>
+
+        <section class="view" id="view-about" data-view="about" aria-labelledby="about-title" hidden>
+          <div class="view-header"><div><span class="eyebrow">THE PROJECT</span><h1 id="about-title">Make waste<br /><em>make sense.</em></h1><p class="view-lede">RecycleIQ turns a classroom question — “Where does this go?” — into an approachable, privacy-friendly learning tool.</p></div><div class="header-pulse"><span class="pulse-dot"></span>Built for learning</div></div>
+          <div class="about-grid"><div class="about-main"><div class="pipeline-card"><div class="card-head"><div><span class="eyebrow">HOW IT WORKS</span><h2>From image to next step</h2></div><span class="card-number">01</span></div><div class="pipeline" id="pipeline"></div><p class="small-note">The model makes a best guess from visual patterns; the category map turns that guess into practical local guidance.</p></div><div class="about-copy-grid" id="about-copy-grid"></div></div><aside class="about-side"><div class="team-card"><span class="eyebrow">PROJECT TEAM</span><h3>Built with curious minds.</h3><p>Replace these placeholders with your team members before submission.</p><div class="team-list"><div><span>01</span><strong>Student name</strong><small>Research & UX</small></div><div><span>02</span><strong>Student name</strong><small>Data & testing</small></div><div><span>03</span><strong>Student name</strong><small>Engineering</small></div></div></div><div class="about-quote">“The goal isn’t perfect sorting. It’s better sorting, one item at a time.”</div></aside></div>
+        </section>
+
+        <section class="view" id="view-settings" data-view="settings" aria-labelledby="settings-title" hidden>
+          <div class="view-header"><div><span class="eyebrow">YOUR PREFERENCES</span><h1 id="settings-title">Make it<br /><em>feel like yours.</em></h1><p class="view-lede">Everything here stays in your browser. Tune the experience, then get back to the next right step.</p></div></div>
+          <div class="settings-grid" id="settings-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <nav class="bottom-nav" aria-label="Mobile navigation">
+      <button class="bottom-nav-item is-active" data-nav="scan" type="button"><span>⌾</span><span>Scan</span></button><button class="bottom-nav-item" data-nav="search" type="button"><span>⌕</span><span>Search</span></button><button class="bottom-nav-item" data-nav="guide" type="button"><span>◈</span><span>Guide</span></button><button class="bottom-nav-item" data-nav="dashboard" type="button"><span>◒</span><span>Dashboard</span></button><button class="bottom-nav-item" data-nav="learn" type="button"><span>▤</span><span>Learn</span></button>
+    </nav>
+  </div>
+
+  <div class="ios-banner" id="ios-banner" hidden><span>↗</span><p>To install RecycleIQ: tap <strong>Share</strong>, then <strong>Add to Home Screen</strong>.</p><button class="icon-button" id="dismiss-ios" type="button" aria-label="Dismiss install tip" onclick="this.closest('#ios-banner').hidden=true;this.closest('#ios-banner').style.display='none'">×</button></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="modal-backdrop" id="modal-backdrop" hidden><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close icon-button" id="modal-close" type="button" aria-label="Close dialog">×</button><span class="eyebrow">ONE MORE STEP</span><h2 id="modal-title">Clear local history?</h2><p id="modal-copy">This removes saved scans and progress from this browser. It cannot be undone.</p><div class="modal-actions"><button class="button button--outline" id="modal-cancel" type="button">Keep my history</button><button class="button button--danger" id="modal-confirm" type="button">Clear history</button></div></div></div>
+  <script type="module" src="js/app.js?v=5"></script>
+</body>
+</html>
